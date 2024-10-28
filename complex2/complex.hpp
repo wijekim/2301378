@@ -1,7 +1,7 @@
 #ifndef COMPLEX_HPP
 #define COMPLEX_HPP
 
-class Complex; // 전방 선언
+class Complex; 
 
 class ComplexManager {
 public:
@@ -10,7 +10,7 @@ public:
 
 class Complex {
 private:
-    int a, b; // a: 실수부, b: 허수부
+    int a, b; // a 실수부, b허수부
 public:
     Complex(); // 기본 생성자
     Complex(int A, int B); // 매개변수가 있는 생성자
