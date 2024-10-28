@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
 #include "complex.hpp"
 
@@ -8,22 +8,24 @@ Complex::Complex(){
     b=0;
     cout<<"복소수"<<a<<"+"<<b<<"j 생성"<<endl;
 }
-Complex::Complex(int A , int B){
+Complex::Complex(int A , int B){ //생성자
     a = A;
     b = B;
 
     cout<<"복소수"<<A<<"+"<<B<<"j 생성"<<endl;
 }
-Complex ComplexAdd(const Complex& c1 , const Complex& c2 ){
+Complex ComplexAdd( Complex c1 , Complex c2 ){//새로운 객체로 생성후 반환
+    Complex cpt;
 
-    int result1 = c1.a+c2.a;
-    int result2 = c1.b+c2.b;
+    //복소수 더한값 
+    cpt.a = c1.a+c2.a;
+    cpt.b = c1.b+c2.b;
 
-    return Complex(result1, result2);
+    return cpt; 
    
 
 }
-void Complex::show(){
+void Complex::show(){ //복소수 출력함수
     cout<<a<<"+"<<b<<"j"<<endl;
 }
 
