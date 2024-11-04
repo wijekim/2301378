@@ -17,10 +17,10 @@ Complex::Complex(int a , int b){
 
     
     Complex Complex::operator--(int x) {
-        Complex temp = *this; // 증가 이전 객체 상태를 저장
+        Complex temp = *this; // 감소 이전 객체 상태를 저장
         real--; //실수부 감소
         img--;  // 허수부 감소
-        return temp;//증가 이전 객체상태를 리턴한다.
+        return temp;//감소 이전 객체상태를 리턴한다.
     }
 
 void Complex::show(){
