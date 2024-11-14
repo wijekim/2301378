@@ -4,6 +4,13 @@
 // 작성자 : 2301378 김위제                                                                                                       
 // **********************************************
 
+
+ex) main함수에서 getmax<int>()를 호출하면 
+
+template<class T>
+T getmax(T a[], int b) 를 자료형 int로 컴파일 단계에서 해당자료형에 맞게 바꿔주고 다시 메인에서 호출한다
+
+
 ![image](https://github.com/user-attachments/assets/011f08fc-41a8-4bd0-bcd6-608243581fae)
 
 
