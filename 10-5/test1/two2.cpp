@@ -36,7 +36,7 @@ TWO TWO::operator+(TWO t){
 }
 
 int main(){
-    TWO a,b, result;
+    TWO a,b, result; //행렬에 객체 선언
 
     cout<<"첫번째 행렬값입력:";
     a.input();
