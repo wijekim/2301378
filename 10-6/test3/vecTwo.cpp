@@ -46,5 +46,6 @@ int main(){
     cout<<"최대값은"<<max<<endl;
     cout<<"위치는"<<maxi+1<<"열"<<maxj+1<<"번쨰"<<endl;
 
+    return 0;
 
 }
